@@ -1,23 +1,69 @@
-.container {
+body {
     width: 960px;
-    margin: 0 auto;
+    margin: auto;
+    background-image: url(../images/stripes-light.png);
 }
 
-header { 
+.header { 
+    height: 50px;
+    width: 100%;
+    position: fixed;
     background-color: #ffffff;
     border-color: #cccccc;
-    width: 960 px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto
 }
 
 h1 {
     width: 240px;
+    height: 50px;
     background-color: #4aaaa5;
     color: white;
-    font-size: 24px;
+    font-size: 26px;
     font-family: Georgia, Times 'Times New Roman', Times, serif;
     text-align: center;
+    float: left;
 }
 
-nav {
+.nav {
     text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+ h2 {
+     font-size: 26px;
+     text-align: left;
+     padding: 30px;
+ }
+
+ section {
+    border-color: #dddddd;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 30px;
+ }
+
+h2 {
+    font-family: Georgia, Times 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+ p1 {
+     float: left;
+ }
+ ul {
+     list-style-type: none;
+ }
+
+ footer {
+     width: 960px;
+     text-align: center;
+     margin: 0 auto;
+     padding: 200px;
+ }
