@@ -1,0 +1,23 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header { 
+    background-color: #ffffff;
+    border-color: #cccccc;
+    width: 960 px;
+}
+
+h1 {
+    width: 240px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 24px;
+    font-family: Georgia, Times 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+nav {
+    text-align: right;
+}
