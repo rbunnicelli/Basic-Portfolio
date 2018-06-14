@@ -124,7 +124,59 @@ a {
     background-color: #ffffff;
     padding: 10px;
     margin-top: 30px;
-    margin-bottom: 250px;
-    height: 300px;
+    margin-bottom: 170px;
+    height: 380px;
+    width: 0 auto;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
+.containercontact {
+    width: 960px;
+    margin: 0 auto
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    margin-top: 5px;
+}
+#message {
+    height: 150px;
+    padding-bottom: 5x;
+}
+
+h4 {
+        font-family: Georgia, Times 'Times New Roman', Times, serif;
+        color: #4aaaa5;
+        border-bottom: 2px ridge #dddddd;
+        width: 700px;
+        margin-left: 5px;
+        font-size: 24px;
+        padding-bottom: 10px;
+}
+
+.name {
+    color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+
+.email {
+    color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.message {
+    color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    color:white;
+    background-color: #4aaaa5;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 5px;
+}
