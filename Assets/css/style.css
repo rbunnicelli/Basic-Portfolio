@@ -25,6 +25,7 @@ h1 {
     float: left;
     padding-top: 10px;
     margin-left: 280px;
+    position: fixed;
 }
 
 .nav {
