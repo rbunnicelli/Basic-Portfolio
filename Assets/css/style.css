@@ -86,6 +86,9 @@ h2 {
      border-top-style: solid;
      background-color: #666666;
      padding-top: 25px;
+     position: fixed;
+     left: 0;
+     bottom: 0;
  }
 p3 {
      color: white;
